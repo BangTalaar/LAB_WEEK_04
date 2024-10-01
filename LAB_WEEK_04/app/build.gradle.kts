@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lab_week_04"
+    namespace = "com.example.lab_week_03"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lab_week_04"
+        applicationId = "com.example.lab_week_03"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -39,6 +39,9 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+    implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
+    implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
+    implementation("androidx.viewpager2:viewpager2:1.1.0")
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
